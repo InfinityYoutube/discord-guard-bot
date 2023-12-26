@@ -478,4 +478,4 @@ client.on("ready", () => {
     client.channels.cache.get(1188526824058273792)
   })
 
-client.login("MTE4ODk0MDkwODYwMzkwODA5Ng.GKLjiv.GVJjc1kKmDRGCUxq0ne5MwCXXMetUjwDAB7OL4")
+client.login(".")
