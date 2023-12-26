@@ -5,7 +5,7 @@ const ms = require("ms")
 client.rolLimit = new Map();
 client.kanalKoruma = new Map();
 client.rolName = new Map()
-client.ownerst = ["997853168748740619","1032312824053108829",""]; // KURUCU
+client.ownerst = ["."]; // KURUCU
 client.evulate = []
 client.channelLimit = new Map()
 client.channelName = new Map()
@@ -13,13 +13,13 @@ client.blackList = []
 client.banLimit = new Map()
 client.roleBackup = new Map()
 client.roleCreate = new Map()
-client.botAccounts = ["1188877262469206167","1188871577316630760","1188869281832763413","1189263008237621381","1188869281832763413"] // Güvenli bot ID 
-client.botroles = ["1188869281832763413", "1188871577316630760","1188877262469206167"] // YLER GİDİNCE YETKİSİ GİTMİYECEK BOTLARIN ID
-let kanal = "1188878198893727904" // LOG KANAL
-let ustKanal = "1188940219144228955" // YETKİSİ YETMEYİNCE vb.
+client.botAccounts = ["."] // Güvenli bot ID 
+client.botroles = ["."] // YLER GİDİNCE YETKİSİ GİTMİYECEK BOTLARIN ID
+let kanal = "." // LOG KANAL
+let ustKanal = "." // YETKİSİ YETMEYİNCE vb.
 
 client.on("ready", () => {
-    client.user.setActivity(" ❤️ Radiac.");
+    client.user.setActivity(" ❤️ Infinity.");
     console.log(client.user.tag)
 })
 
